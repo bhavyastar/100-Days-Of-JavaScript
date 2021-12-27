@@ -1,0 +1,36 @@
+.pic{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.heading{
+    margin-left: 35%;
+}
+.project-card{
+    text-decoration: none;
+    color:white;
+ 
+}
+.day{
+    margin-left: 25%;
+}
+.main-container{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 24px;
+    row-gap: 24px;
+    margin: auto;
+    justify-content: center;
+   
+}
+.container{
+    flex: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 transparent,0 0 transparent,0 0 transparent,0 0 transparent, 0 2px 3px 0 rgba(0,0,0,0.15),0 1px 2px 0 rgba(0,0,0,0.06);
+  border-radius: 10px;
+  transition: transform .3s ease-in-out 0s;
+  /* border-color:white;
+  border-width: 4px;
+  border-style: solid; */
+}

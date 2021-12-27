@@ -17,10 +17,10 @@ buttons.addEventListener("click", (e) => {
 });
 function setColor() {
   if (count.innerHTML > 0) {
-    count.style.color = "yellow";
+    count.style.color = "blue";
   } else if (count.innerHTML < 0) {
-    count.style.color = "orangered";
+    count.style.color = "white";
   } else {
-    count.style.color = "#fff";
+    count.style.color = "orange";
   }
 }
