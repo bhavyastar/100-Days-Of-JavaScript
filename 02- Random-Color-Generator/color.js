@@ -9,4 +9,3 @@ const randomColorgenerator = () => {
 
 color_button.addEventListener("click", randomColorgenerator);
 
-generateColor();
