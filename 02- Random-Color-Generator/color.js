@@ -1,12 +1,12 @@
-const hex = document.querySelector(".hex");
-const btn = document.querySelector(".color_button");
+const count = document.querySelector(".count");
+const color_button = document.querySelector(".color_button");
 
-const generateColor = () => {
+const randomColorgenerator = () => {
   const randomColor = Math.random().toString(16).substring(2, 8);
   document.body.style.backgroundColor = "#" + randomColor;
-  hex.innerHTML = "#" + randomColor;
+  count.innerHTML = "#" + randomColor;
 };
 
-btn.addEventListener("click", generateColor);
+color_button.addEventListener("click", randomColorgenerator);
 
 generateColor();
