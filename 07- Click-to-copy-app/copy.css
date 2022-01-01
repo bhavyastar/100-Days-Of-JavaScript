@@ -1,15 +1,32 @@
 .copy{
     justify-content: center;
     align-items: center;
+    margin-top: 300px;
+    margin-left: 40%;
+    width: 400px;
+    height:30vh;
+    background-color: aqua;
+    border-radius: 5px;
+    border:black 3px solid;
   
 }
 .para{
     justify-content: center;
     align-items: center;
+    width: 200px;
+    height: 30px;
+    margin-top: 90px;
+    margin-left: 10%;
+    border: red 3px solid;
+    outline: none;
   
 }
 .btn{
     justify-content: center;
     align-items: center;
+    border:blue 3px solid;
+    height: 35px;
+    width: 100px;
+    
 
 }
